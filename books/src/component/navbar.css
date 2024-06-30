@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    background: #FFCE1A;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+
+.input-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.input {
+    padding: 7px 50px 7px 32px;
+    background: #EAEAEA;
+    border-radius: 8px;
+
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #FFCE1A;
+    padding: 7px 40px 7px 15px;
+    gap: 8px;
+    background: #FFCE1A;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background: #fff;
+    color: #FFCE1A;
+}
+
+.logout {
+    color: #fff;
+    border: 1px solid #FFCE1A;
+    padding: 12px 40px 12px 15px;
+    background: #FFCE1A;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.logout:hover {
+    background: #fff;
+    color: #FFCE1A;
+}

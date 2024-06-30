@@ -1,0 +1,58 @@
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.cardItem {
+    display: flex;
+    border: 1px solid #fff;
+    transition: 0.5s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardItem:hover {
+    box-shadow: 5px 5px 5px;
+    background: #fff;
+}
+
+.img {
+    width: 180px;
+    height: 250px;
+}
+
+.contect {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+}
+
+.productName {
+    font-size: 16px;
+}
+
+.info {
+    font-size: 14px;
+    width: 250px;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.addToCart {
+    padding: 7px 20px 7px 15px;
+    color: #fff;
+    border: 1px solid #FFCE1A;
+    background: #FFCE1A;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.addToCart:hover {
+    background: #fff;
+    color: #FFCE1A;
+}
